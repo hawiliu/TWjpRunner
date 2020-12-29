@@ -74,6 +74,8 @@ namespace TWjpRunner
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
+                Console.WriteLine("Press any key to continue...");
+                Console.ReadKey();
             }
         }
 

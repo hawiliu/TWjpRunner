@@ -4,15 +4,15 @@
 ### **使用環境**
 * [Firefox](https://www.mozilla.org/zh-TW/firefox/new/)
 * [Locale.Emulator.2.4.1.0](https://xupefei.github.io/Locale-Emulator/)
-* [.Net Core 3.1 Runtime](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)(必須安裝)
+* [.Net Core Desktop Runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1)(必須安裝, 推薦3.1.10以上版本)
 
 ### **下載**
-* [TWjpRunner](https://github.com/hawiliu/TWjpRunner/blob/master/Upload/TWjpRunner.zip?raw=true)
+* [TWjpRunner 1.0.1](https://github.com/hawiliu/TWjpRunner/blob/master/Upload/TWjpRunner.zip?raw=true)
 
 ### **使用教學**
 1. 下載TWjpRunner並放到任意位置(建議路徑內不要有中文名稱)
 2. 修改TWjpRunner資料夾內的appsetting.json的LEProcPath  
-依照填入Locale.Emulator放的位置自行填入LEProc.exe的路徑  
+依照Locale.Emulator放的位置自行填入LEProc.exe的路徑  
 理論上NgmPath不需要修改  
 ![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/appsetting.PNG)
 3. 開啟Firefox的選項，往下拉找到應用程式的ngmj選項，並修改成使用TWjpRunner.exe執行  
@@ -23,6 +23,17 @@
 6. 如果是第一次執行可能會跳出LEGUI設定畫面，可參考下圖設定即可  
 ![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/LEGUI.PNG)
 7. 開始玩遊戲囉~
+
+### **疑難排解**
+Q.遊戲出現20015錯誤
+>A.確認Talesweaver.exe的LEGUI參數欄位是不是空的, 或是firefox網頁重新整理確認是否需要重登
+>![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/Setting.PNG)
+>![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/Check.PNG)
+
+Q.使用之前的版本, 啟動時只有閃過黑色視窗卻沒有啟動遊戲
+>A1.確認appsetting.json內設定是否正確
+>A2.確認是否有安裝.Net Core Desktop Runtime 3.1.10以上的版本
+>![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/aspnetcore.PNG)
 
 **聲明**  
 如果不當使用造成任何問題，後果請自行負責。
