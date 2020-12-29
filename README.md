@@ -33,7 +33,7 @@ Q.遊戲出現20015錯誤
 Q.使用之前的版本, 啟動時只有閃過黑色視窗卻沒有啟動遊戲
 >A1.確認appsetting.json內設定是否正確
 >A2.確認是否有安裝.Net Core Desktop Runtime 3.1.10以上的版本
->![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/aspnetcore.png)
+>![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/aspnetcore.PNG)
 
 **聲明**  
 如果不當使用造成任何問題，後果請自行負責。
