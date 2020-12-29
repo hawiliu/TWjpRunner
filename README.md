@@ -27,13 +27,13 @@
 ### **疑難排解**
 Q.遊戲出現20015錯誤
 >A.確認Talesweaver.exe的LEGUI參數欄位是不是空的, 或是firefox網頁重新整理確認是否需要重登
->![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/Setting.PNG)
->![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/Check.PNG)
+>![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/Setting.png)
+>![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/Check.png)
 
 Q.使用之前的版本, 啟動時只有閃過黑色視窗卻沒有啟動遊戲
 >A1.確認appsetting.json內設定是否正確
 >A2.確認是否有安裝.Net Core Desktop Runtime 3.1.10以上的版本
->![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/aspnetcore.PNG)
+>![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/aspnetcore.png)
 
 **聲明**  
 如果不當使用造成任何問題，後果請自行負責。
