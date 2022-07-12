@@ -13,7 +13,9 @@
 1. 下載TWjpRunner並放到任意位置(建議路徑內不要有中文名稱)
 2. 修改TWjpRunner資料夾內的appsetting.json的LEProcPath  
 依照Locale.Emulator放的位置自行填入LEProc.exe的路徑  
-理論上NgmPath不需要修改  
+~~理論上NgmPath不需要修改~~  
+因應20220622遊戲版本更新, 會需要將NgmPath修改為  
+    `"C:\\ProgramData\\NexonJP\\NGM\\NGM64.exe"`
 ![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/appsetting.PNG)
 3. 開啟Firefox的選項，往下拉找到應用程式的ngmj選項，並修改成使用TWjpRunner.exe執行  
 ![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/ngmj.PNG)
@@ -31,7 +33,7 @@ Q.遊戲出現20015錯誤
 >![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/Check.png)
 
 Q.使用之前的版本, 啟動時只有閃過黑色視窗卻沒有啟動遊戲
->A1.確認appsetting.json內設定是否正確
+>A1.確認appsetting.json內設定是否正確  
 >A2.確認是否有安裝.Net Core Desktop Runtime 3.1.10以上的版本
 >![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/aspnetcore.PNG)
 
