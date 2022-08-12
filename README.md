@@ -3,7 +3,7 @@
 
 ### **使用環境**
 * [Firefox](https://www.mozilla.org/zh-TW/firefox/new/)
-* [Locale.Emulator.2.4.1.0](https://xupefei.github.io/Locale-Emulator/)
+* [Locale.Emulator最新版](https://xupefei.github.io/Locale-Emulator/)
 * [.Net Core Desktop Runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1)(必須安裝, 推薦3.1.10以上版本)
 
 ### **下載**
@@ -36,6 +36,9 @@ Q.使用之前的版本, 啟動時只有閃過黑色視窗卻沒有啟動遊戲
 >A1.確認appsetting.json內設定是否正確  
 >A2.確認是否有安裝.Net Core Desktop Runtime 3.1.10以上的版本
 >![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/aspnetcore.PNG)
+
+Q.系統為Win11, 啟動卡在黑色視窗
+>A.確認切換語系的程式為v2.5.0.1以上
 
 **聲明**  
 如果不當使用造成任何問題，後果請自行負責。
