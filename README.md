@@ -6,7 +6,7 @@
 * [.Net Core Desktop Runtime](https://dotnet.microsoft.com/download/dotnet-core/3.1)(必須安裝, 推薦3.1.10以上版本)
 
 ### **下載**
-* [TWjpRunner 2.0.0]()
+* [TWjpRunner 2.0.0](https://github.com/hawiliu/TWjpRunner/releases)
 
 ### **使用教學**
 1. 下載TWjpRunner並放到任意位置(建議路徑內不要有中文名稱)
@@ -20,7 +20,8 @@
 > ![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/ngmj.PNG)
 5. 如果是第一次執行可能會跳出LEGUI設定畫面，可參考下圖設定即可  
 ![image](https://raw.githubusercontent.com/hawiliu/TWjpRunner/master/Upload/Image/LEGUI.PNG)
-6. 開始玩遊戲囉~
+6. 等Talesweaver.exe自動重啟成日文語系, 且小黑窗自動關閉
+7. 開始玩遊戲囉~
 
 ### **疑難排解**
 Q.遊戲出現20015錯誤
