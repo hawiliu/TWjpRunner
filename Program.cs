@@ -3,13 +3,12 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Management;
+using System.Threading;
 
 namespace TWjpRunner
 {
     static class Program
     {
-        static string NgmPath = @"C:\ProgramData\Nexon\NGM\NGM.exe";
-        static string NgmCommandLine = "";
         static string TwCommandLine = "";
         static string LEProcPath = @"";
 
@@ -24,8 +23,6 @@ namespace TWjpRunner
                             .Build();
 
                 var section = config.GetSection("TWjpRunner");
-
-                NgmPath = config.GetValue<string>("NgmPath", @"C:\ProgramData\Nexon\NGM\NGM.exe");
                 LEProcPath = config.GetValue<string>("LEProcPath", @"");
 
                 if (LEProcPath == "")
@@ -36,17 +33,7 @@ namespace TWjpRunner
                     return;
                 }
 
-                //取得Web的指令
-                NgmCommandLine = args[0];
-
-                //執行NGM
-                Process.Start(new ProcessStartInfo()
-                {
-                    UseShellExecute = true,
-                    Verb = "runas",
-                    Arguments = $"{NgmCommandLine}",
-                    FileName = NgmPath
-                });
+                Console.WriteLine("Waiting for Talesweaver.exe...");
 
                 //等待TalesWeaver.exe執行並取得CommandLine
                 while (true)
@@ -61,6 +48,8 @@ namespace TWjpRunner
                         tw.Kill();
                         break;
                     }
+
+                    Thread.Sleep(TimeSpan.FromSeconds(1));
                 }
 
                 Process.Start(new ProcessStartInfo()
